@@ -1,18 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { FaTrashAlt } from "react-icons/fa";
+// import { FaTrashAlt } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { removeUser } from "./../store/slices/UserSlice";
 const DisplayUsers = ({ setData }) => {
-  const people = [
-    {
-      name: "Lindsay Walton",
-      title: "Front-end Developer",
-      email: "lindsay.walton@example.com",
-      role: "Member",
-    },
-    // More people...
-  ];
   const dispatch = useDispatch();
   const data2 = useSelector((state) => {
     return state.users;

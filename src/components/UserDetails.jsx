@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import DeleteAllUser from "./DeleteAllUser";
 import DisplayUsers from "./DisplayUsers";
-import { fakeUserData } from "./../api";
+// import { fakeUserData } from "./../api";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser, updateUser } from "./../store/slices/UserSlice";
 import { AiOutlinePlus } from "react-icons/ai";
